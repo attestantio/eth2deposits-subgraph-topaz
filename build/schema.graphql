@@ -3,7 +3,7 @@ type Deposit @entity {
   transactionHash: Bytes!
   validatorPubKey: Bytes!
   withdrawalCredentials: Bytes!
-  amount: Bytes!
+  amount: BigInt!
   signature: Bytes!
-  index: Bytes!
+  index: BigInt!
 }

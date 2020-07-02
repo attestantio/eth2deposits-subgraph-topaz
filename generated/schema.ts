@@ -69,13 +69,13 @@ export class Deposit extends Entity {
     this.set("withdrawalCredentials", Value.fromBytes(value));
   }
 
-  get amount(): Bytes {
+  get amount(): BigInt {
     let value = this.get("amount");
-    return value.toBytes();
+    return value.toBigInt();
   }
 
-  set amount(value: Bytes) {
-    this.set("amount", Value.fromBytes(value));
+  set amount(value: BigInt) {
+    this.set("amount", Value.fromBigInt(value));
   }
 
   get signature(): Bytes {
@@ -87,12 +87,12 @@ export class Deposit extends Entity {
     this.set("signature", Value.fromBytes(value));
   }
 
-  get index(): Bytes {
+  get index(): BigInt {
     let value = this.get("index");
-    return value.toBytes();
+    return value.toBigInt();
   }
 
-  set index(value: Bytes) {
-    this.set("index", Value.fromBytes(value));
+  set index(value: BigInt) {
+    this.set("index", Value.fromBigInt(value));
   }
 }
