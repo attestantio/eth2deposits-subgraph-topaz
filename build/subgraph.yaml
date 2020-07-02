@@ -8,9 +8,9 @@ dataSources:
     name: DepositContract
     network: goerli
     source:
-      address: "0x0F0F0fc0530007361933EaB5DB97d09aCDD6C1c8"
+      address: "0x5ca1e00004366ac85f492887aaab12d0e6418876"
       abi: DepositContract
-      startBlock: 2844925
+      startBlock: 2523557
     mapping:
       kind: ethereum/events
       apiVersion: 0.1.0
