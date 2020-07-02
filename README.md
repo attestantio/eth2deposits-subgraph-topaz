@@ -1,6 +1,6 @@
 # Ethereum 2 deposit contract subgraph
 
-This is the Ethereum 2 contract subgraph deposit for Topaz.
+This is the Ethereum 2 deposit contract subgraph for Topaz.
 
 For example, to query the deposits for a particular validator public key:
 
